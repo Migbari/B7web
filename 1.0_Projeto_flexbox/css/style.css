@@ -361,6 +361,11 @@ footer .blue_data{
     nav ul{
         flex-direction: column;
         display: none; 
+        left: -40px;
+        margin-top: 0px;
+        background-color: white;
+        width: 100%;
+        position: absolute;
     }
     header{
         height: auto;
@@ -372,5 +377,11 @@ footer .blue_data{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+    }
+    .double_square {
+    background-color: #36a9e1;
+    width: 200px;
+    height: 200px;
+    margin: auto;
     }
 }
